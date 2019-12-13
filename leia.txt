@@ -14,3 +14,10 @@ resultado....
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBbGkiLCJqdGkiOiJjMDYxODRlNy1kMTgzLTQzYTktOGEwNC01MTdhODdmZWU3ZTYiLCJleHAiOjE1NzYyMTE2NDcsImlzcyI6ImxvY2FsaG9zdDo0NDM3NiIsImF1ZCI6ImxvY2FsaG9zdDo0NDM3NiJ9.Ge4mFDHzzPjF-50z40Dcja4mgENRE7LNxrTBDCdPw1k",
     "expiration": "2019-12-13T04:34:07Z"
 }
+
+
+https://localhost:44376/api/teste   - GET
+Authorization
+  Type: Bearer Token > 
+
+yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBbGkiLCJqdGkiOiJjMDYxODRlNy1kMTgzLTQzYTktOGEwNC01MTdhODdmZWU3ZTYiLCJleHAiOjE1NzYyMTE2NDcsImlzcyI6ImxvY2FsaG9zdDo0NDM3NiIsImF1ZCI6ImxvY2FsaG9zdDo0NDM3NiJ9.Ge4mFDHzzPjF-50z40Dcja4mgENRE7LNxrTBDCdPw1k
