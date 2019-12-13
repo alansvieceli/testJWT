@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace testeJWT.Controllers {
-    [ApiController]
-    [Route("[controller]")]
+
+    [Authorize]   
+    [Route("api/teste")]
+    //[ApiController]
     public class WeatherForecastController : ControllerBase {
         private static readonly string[] Summaries = new[]
         {

@@ -1,0 +1,16 @@
+https://dotnetdetail.net/asp-net-core-3-0-web-api-token-based-authentication-example-using-jwt-in-vs2019/
+
+https://localhost:44376/api/teste   - GET
+
+https://localhost:44376/api/authenticate/login  - POST
+
+{
+	username : "Ali",
+	password: "Ali@123"
+}
+
+resultado....
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBbGkiLCJqdGkiOiJjMDYxODRlNy1kMTgzLTQzYTktOGEwNC01MTdhODdmZWU3ZTYiLCJleHAiOjE1NzYyMTE2NDcsImlzcyI6ImxvY2FsaG9zdDo0NDM3NiIsImF1ZCI6ImxvY2FsaG9zdDo0NDM3NiJ9.Ge4mFDHzzPjF-50z40Dcja4mgENRE7LNxrTBDCdPw1k",
+    "expiration": "2019-12-13T04:34:07Z"
+}
